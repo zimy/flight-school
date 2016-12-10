@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e -x
+
+pushd flight-school
+  bundle install
+  bundle exec espec
+popd
